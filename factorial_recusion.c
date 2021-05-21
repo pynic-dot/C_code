@@ -3,12 +3,12 @@
 unsigned long fact(int );
 int  main()
 {
-unsigned int num1;
+int num;
 unsigned long totalfact;
 printf("Enter the number for the factorial value:  ");
-scanf("%ld",&num1);
-totalfact = fact(num1);
-printf("The factorial of %ld is : %lu",num1,totalfact);
+scanf("%d",&num);
+totalfact = fact(num);
+printf("The factorial of %d is : %lu",num,totalfact);
 return 0;
 }
 
